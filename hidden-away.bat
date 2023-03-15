@@ -12,5 +12,12 @@ echo [2]find file
 echo.
 choice /c 12 /n /m "%userprofile% ~ # " 
 if %errorlevel%==1 goto hiden
-if %errorlevel%==2 goto find
+if %errorlevel%==2 goto ffind
 pause
+
+:ffind
+SET /p "pc=filename to hide: "
+SET /p "cp=insert extension: "
+attrib +h %pc%%cp%
+pause
+goto :main
