@@ -13,6 +13,8 @@ echo ===========
 echo [1]hide file	
 echo [2]find file
 echo.
+dir
+echo.
 choice /c 12 /n /m "%userprofile% ~ # " 
 if %errorlevel%==1 goto hiden
 if %errorlevel%==2 goto ffind
