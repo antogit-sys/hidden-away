@@ -19,14 +19,10 @@ The process of hiding files becomes easy and convenient with hidden-away.bat. Ad
 
 In conclusion, if you're looking for a simple and convenient way to hide files on your Windows computer, hidden-away.bat is the perfect software for you. Try it out today and discover how easy it can be to hide files with just a simple click of the mouse. Thank you for choosing hidden-away.bat!
 
- 
-
-#### 2. Use
+## 2. Use
 
 ```cmd
 hidden-away.bat
 ```
-
-
 
 just start the program on the folder where the file you want to hide/find is contained
