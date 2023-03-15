@@ -1,3 +1,6 @@
+REM ********************
+REM 	2017 script XD
+REM *********************
 @ECHO OFF
 title Hidden Away
 
@@ -15,9 +18,16 @@ if %errorlevel%==1 goto hiden
 if %errorlevel%==2 goto ffind
 pause
 
-:ffind
+:hiden
 SET /p "pc=filename to hide: "
 SET /p "cp=insert extension: "
 attrib +h %pc%%cp%
+pause
+goto :main
+
+:ffind
+SET /p "f=filename to find: "
+SET /p "est=insert extension: "
+attrib -h %f%%est%
 pause
 goto :main
